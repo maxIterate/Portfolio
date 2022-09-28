@@ -1,4 +1,36 @@
 .header {
+    position: relative;
     background-color: rgb(156, 235, 235);
     height: 20vh;
+    border-radius: 0 0 100px 0;
+    z-index: 10;
+}
+
+.header::before {
+    content: "";
+  position:absolute;
+  top:150px;
+  left:0;
+  height: 40vh;
+  width: 100%;
+  border-top-left-radius: 100px;
+  background-color:#fff;
+  z-index: 9;
+}
+
+.header:after {
+    content: '';
+    position: absolute;
+    top: 150px;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(156,235,235);
+    z-index: 11;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 65px;
+    padding: 1.75rem 2.25rem;
 }

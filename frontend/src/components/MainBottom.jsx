@@ -4,7 +4,7 @@ import '../styles/mainBottom.css'
 const MainBottom = () => {
     return (
         <div className='mainBottom'>
-            <h2>Experimentos</h2>
+            <h2>Proyectos</h2>
         </div>
     );
 }

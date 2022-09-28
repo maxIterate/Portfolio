@@ -1,3 +1,11 @@
 .mainBottom {
+    padding: 20px;
     height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.mainBottom h2 {
+    font-size: 4em;
+    font-weight: 300;
 }

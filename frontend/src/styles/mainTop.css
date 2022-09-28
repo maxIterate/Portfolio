@@ -1,3 +1,16 @@
 .mainTop {
-    height: 85vh;
+    position: relative;
+    height: 80vh;
+    z-index: 11;
+    border-bottom: 1px solid #ddd;
+    z-index: 10;
 }
+
+.mainTop::before {
+    position: absolute;
+    content: '';
+    width: 92vw;
+    height: 11vh;
+    background-color: rgb(73, 143, 233);
+    border-radius: 0 0 100px 0;
+} 
