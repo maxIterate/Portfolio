@@ -1,0 +1,44 @@
+{
+"tecnologies" : [
+    {
+        "name" : "HTML",
+        "description" : "HyperText Markup Language",
+        "image" : "link here"
+    },
+    {
+        "name" : "CSS",
+        "description" : "Cascading Style Sheet",
+        "image" : "link here"
+    },
+    {
+        "name" : "Javascript",
+        "description" : "Javascript",
+        "image" : "link here"
+    },
+    {
+        "name" : "Javascript",
+        "description" : "Javascript",
+        "image" : "link here"
+    },
+    {
+        "name" : "ReactJS",
+        "description" : "ReactJS",
+        "image" : "link here"
+    },
+    {
+        "name" : "ExpressJS",
+        "description" : "ExpressJS",
+        "image" : "link here"
+    },
+    {
+        "name" : "MongoDB",
+        "description" : "Data Base",
+        "image" : "link here"
+    },
+    {
+        "name" : "NodeJS",
+        "description" : "Node",
+        "image" : "link here"
+    }
+]
+}

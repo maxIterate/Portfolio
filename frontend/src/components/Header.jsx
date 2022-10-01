@@ -18,7 +18,8 @@ const Header = () => {
                         </ul>
                 </nav>
             </div>
-            
+            <div className='example2'></div>
+            <div className='example'></div>
 
             
             

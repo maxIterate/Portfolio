@@ -1,5 +1,11 @@
 .mainTop {
-    position: relative;
-    height: 80vh;
-    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.mainTop h2 {
+    font-size: 4em;
+    font-weight: 300;
 }
